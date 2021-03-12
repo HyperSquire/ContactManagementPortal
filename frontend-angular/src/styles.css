@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #f5f5f5;
+}
+
+.main-heading h3 {
+    font-size: 21px;
+}
+
+.contact-list-cursor {
+    cursor: pointer;
+}
+
+.scrollable {
+    height: 365px;
+    overflow: auto;
+}
+
+.contact-list-table .table td, .contact-list-table .table th  {
+    padding: .45rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    color: #494949c2;
+}
+
+.badges {
+    padding: 3px 15px;
+    font-size: 13.5px;
+    position: relative;
+    border: none;
+    font-weight: 600;
+ }
+ 
+.badges-success {
+    background-color: rgba(10, 187, 135, 0.1);
+    color: #0abb87;
+}
+
+.badges-danger {
+    background-color: rgba(253, 57, 122, 0.1);
+    color: #fd397a;
+}
+
+.text-red {
+    color: red !important
+}
+ 
